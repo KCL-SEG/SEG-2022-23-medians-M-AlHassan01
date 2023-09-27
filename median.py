@@ -8,13 +8,13 @@ def mean(numbers: list) -> float:
 def median_odd(numList:list) -> float:
     """Called by median() to calculate median from an odd sized list"""
     midpointIndex = (len(numList) // 2)
-    print("Odd")
+    print("Odd", numList[midpointIndex])
     return numList[midpointIndex]
 
 def median_even(numlist:list) -> float:
     """Called by median() to calculate median value of an even sized list"""
     midpointIndex = len(numlist)
-    print("Even")
+    print("Even:",numlist[midpointIndex:midpointIndex+2])
     return mean(numlist[midpointIndex:midpointIndex+2])
 
 def median(numList:list) -> float:
