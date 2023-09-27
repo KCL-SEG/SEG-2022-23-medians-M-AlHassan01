@@ -1,6 +1,6 @@
 """Median calculator."""
 """ENTER YOUR SOLUTION HERE!"""
-def mean(*numbers: float) -> float:
+def mean(numbers: list) -> float:
     """Returns mean average of list of floating point numbers"""
     return sum(numbers) / len(numbers)
 
