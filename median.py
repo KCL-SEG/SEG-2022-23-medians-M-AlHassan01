@@ -33,6 +33,8 @@ def main() -> None:
             print("Some input could not be converted to a number!")
         else:
             flag = False
+    print(numbers)
+    print(sorted(numbers))
     print(median(numbers))
 
 if __name__ == "__main__":
