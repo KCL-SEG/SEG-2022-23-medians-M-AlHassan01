@@ -2,6 +2,7 @@
 """ENTER YOUR SOLUTION HERE!"""
 def mean(numbers: list) -> float:
     """Returns mean average of list of floating point numbers"""
+    print(numbers)
     return sum(numbers) / len(numbers)
 
 def median_odd(numList:list) -> float:
@@ -14,7 +15,7 @@ def median_even(numlist:list) -> float:
     """Called by median() to calculate median value of an even sized list"""
     midpointIndex = len(numlist)
     print("Even")
-    return mean(numlist[midpointIndex:midpointIndex+1])
+    return mean(numlist[midpointIndex:midpointIndex+2])
 
 def median(numList:list) -> float:
     """Returns median value from a list of floating point numbers"""
